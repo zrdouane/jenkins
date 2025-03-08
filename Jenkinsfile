@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                pip install -r req.txt
+                pip install -r req.txt --break-system-packages
                 '''
             }
         }
