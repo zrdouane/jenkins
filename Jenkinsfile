@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd app
-                pip3 install -r req.txt
+                pip install -r req.txt
                 '''
             }
         }
